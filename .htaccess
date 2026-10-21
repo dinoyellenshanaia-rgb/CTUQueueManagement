@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(database|database-migration)\.sql$">
+  Require all denied
+</FilesMatch>
